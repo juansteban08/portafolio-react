@@ -1,0 +1,35 @@
+.hard-skills {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+  }
+  
+  .skill-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transform: translateY(-20px); 
+    animation: fall 0.5s forwards; 
+  }
+  
+  .skill-logo img {
+    width: 60px;
+    height: 60px;
+  }
+  
+
+  @keyframes fall {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

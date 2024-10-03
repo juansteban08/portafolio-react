@@ -1,0 +1,38 @@
+.soft-skills {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+  }
+  
+  .skill-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circle-background {
+    fill: none;
+    stroke: #e0e0e0; 
+    stroke-width: 10; 
+  }
+  
+  .circle-progress {
+    fill: none;
+    stroke: #1a73e8;
+    stroke-width: 10;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+  
+  .percentage {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px; 
+  }
+  

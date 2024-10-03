@@ -1,0 +1,24 @@
+.social-links {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .links-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .social-icon img {
+    width: 40px;
+    height: auto; 
+    transition: transform 0.3s;
+  }
+  
+  .social-icon:hover img {
+    transform: scale(1.1);
+  }
+  
