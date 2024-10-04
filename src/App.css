@@ -18,8 +18,8 @@
 .nav-bar {
   margin-top: 10px;
   display: flex;
-  justify-content: center; /* Para centrar los enlaces */
-  flex-wrap: wrap; /* Hace que los enlaces se envuelvan en filas si es necesario */
+  justify-content: center;
+  flex-wrap: wrap; 
 }
 
 .nav-bar a {
@@ -33,27 +33,27 @@
   color: #005bb5;
 }
 
-/* Estilos responsivos */
+
 @media (max-width: 768px) {
   .App {
-    max-width: 90%; /* Reducir el ancho en pantallas más pequeñas */
+    max-width: 90%;
   }
 
   .nav-bar {
-    justify-content: space-around; /* Ajustar los enlaces de navegación */
+    justify-content: space-around;
   }
 
   .app-header {
-    padding: 15px; /* Reducir el padding en pantallas más pequeñas */
+    padding: 15px;
   }
 }
 
 @media (max-width: 480px) {
   .nav-bar a {
-    margin: 0 10px; /* Reducir el margen entre enlaces */
+    margin: 0 10px; 
   }
 
   .app-header {
-    padding: 10px; /* Ajustar el padding en pantallas más pequeñas */
+    padding: 10px;
   }
 }
